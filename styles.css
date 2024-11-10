@@ -1,0 +1,60 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+    height: auto;    /* Keeps the image’s aspect ratio */
+    display: block;  /* Adds space around the image */
+    margin: 10px auto; /* Centers the image */
+}
+
+header, nav, section, footer {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
